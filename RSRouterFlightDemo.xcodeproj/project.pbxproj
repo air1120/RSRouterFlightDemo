@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4589E8C6253EC63900757960 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E8C5253EC63900757960 /* AppDelegate.m */; };
+		4589E8C9253EC63900757960 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E8C8253EC63900757960 /* SceneDelegate.m */; };
+		4589E8CC253EC63900757960 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E8CB253EC63900757960 /* ViewController.m */; };
+		4589E8CF253EC63900757960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4589E8CD253EC63900757960 /* Main.storyboard */; };
+		4589E8D1253EC63A00757960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4589E8D0253EC63A00757960 /* Assets.xcassets */; };
+		4589E8D4253EC63A00757960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4589E8D2253EC63A00757960 /* LaunchScreen.storyboard */; };
+		4589E8D7253EC63A00757960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E8D6253EC63A00757960 /* main.m */; };
+		4589E8E1253EC63A00757960 /* RSRouterFlightDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E8E0253EC63A00757960 /* RSRouterFlightDemoTests.m */; };
+		4589E8EC253EC63B00757960 /* RSRouterFlightDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E8EB253EC63B00757960 /* RSRouterFlightDemoUITests.m */; };
+		4589E90C253EC6FC00757960 /* RSFlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4589E90B253EC6FC00757960 /* RSFlightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4589E8DD253EC63A00757960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4589E8B9253EC63900757960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4589E8C0253EC63900757960;
+			remoteInfo = RSRouterFlightDemo;
+		};
+		4589E8E8253EC63B00757960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4589E8B9253EC63900757960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4589E8C0253EC63900757960;
+			remoteInfo = RSRouterFlightDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4589E8C1253EC63900757960 /* RSRouterFlightDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSRouterFlightDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4589E8C4253EC63900757960 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4589E8C5253EC63900757960 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4589E8C7253EC63900757960 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		4589E8C8253EC63900757960 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		4589E8CA253EC63900757960 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4589E8CB253EC63900757960 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4589E8CE253EC63900757960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4589E8D0253EC63A00757960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4589E8D3253EC63A00757960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4589E8D5253EC63A00757960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4589E8D6253EC63A00757960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4589E8DC253EC63A00757960 /* RSRouterFlightDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSRouterFlightDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4589E8E0253EC63A00757960 /* RSRouterFlightDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSRouterFlightDemoTests.m; sourceTree = "<group>"; };
+		4589E8E2253EC63A00757960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4589E8E7253EC63B00757960 /* RSRouterFlightDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSRouterFlightDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4589E8EB253EC63B00757960 /* RSRouterFlightDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSRouterFlightDemoUITests.m; sourceTree = "<group>"; };
+		4589E8ED253EC63B00757960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4589E90A253EC6FC00757960 /* RSFlightViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSFlightViewController.h; sourceTree = "<group>"; };
+		4589E90B253EC6FC00757960 /* RSFlightViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSFlightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4589E8BE253EC63900757960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589E8D9253EC63A00757960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589E8E4253EC63B00757960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4589E8B8253EC63900757960 = {
+			isa = PBXGroup;
+			children = (
+				4589E8C3253EC63900757960 /* RSRouterFlightDemo */,
+				4589E8DF253EC63A00757960 /* RSRouterFlightDemoTests */,
+				4589E8EA253EC63B00757960 /* RSRouterFlightDemoUITests */,
+				4589E8C2253EC63900757960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4589E8C2253EC63900757960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4589E8C1253EC63900757960 /* RSRouterFlightDemo.app */,
+				4589E8DC253EC63A00757960 /* RSRouterFlightDemoTests.xctest */,
+				4589E8E7253EC63B00757960 /* RSRouterFlightDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4589E8C3253EC63900757960 /* RSRouterFlightDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4589E903253EC6CD00757960 /* Flight */,
+				4589E8C4253EC63900757960 /* AppDelegate.h */,
+				4589E8C5253EC63900757960 /* AppDelegate.m */,
+				4589E8C7253EC63900757960 /* SceneDelegate.h */,
+				4589E8C8253EC63900757960 /* SceneDelegate.m */,
+				4589E8CA253EC63900757960 /* ViewController.h */,
+				4589E8CB253EC63900757960 /* ViewController.m */,
+				4589E8CD253EC63900757960 /* Main.storyboard */,
+				4589E8D0253EC63A00757960 /* Assets.xcassets */,
+				4589E8D2253EC63A00757960 /* LaunchScreen.storyboard */,
+				4589E8D5253EC63A00757960 /* Info.plist */,
+				4589E8D6253EC63A00757960 /* main.m */,
+			);
+			path = RSRouterFlightDemo;
+			sourceTree = "<group>";
+		};
+		4589E8DF253EC63A00757960 /* RSRouterFlightDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4589E8E0253EC63A00757960 /* RSRouterFlightDemoTests.m */,
+				4589E8E2253EC63A00757960 /* Info.plist */,
+			);
+			path = RSRouterFlightDemoTests;
+			sourceTree = "<group>";
+		};
+		4589E8EA253EC63B00757960 /* RSRouterFlightDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4589E8EB253EC63B00757960 /* RSRouterFlightDemoUITests.m */,
+				4589E8ED253EC63B00757960 /* Info.plist */,
+			);
+			path = RSRouterFlightDemoUITests;
+			sourceTree = "<group>";
+		};
+		4589E903253EC6CD00757960 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				4589E90A253EC6FC00757960 /* RSFlightViewController.h */,
+				4589E90B253EC6FC00757960 /* RSFlightViewController.m */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4589E8C0253EC63900757960 /* RSRouterFlightDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4589E8F0253EC63B00757960 /* Build configuration list for PBXNativeTarget "RSRouterFlightDemo" */;
+			buildPhases = (
+				4589E8BD253EC63900757960 /* Sources */,
+				4589E8BE253EC63900757960 /* Frameworks */,
+				4589E8BF253EC63900757960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSRouterFlightDemo;
+			productName = RSRouterFlightDemo;
+			productReference = 4589E8C1253EC63900757960 /* RSRouterFlightDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4589E8DB253EC63A00757960 /* RSRouterFlightDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4589E8F3253EC63B00757960 /* Build configuration list for PBXNativeTarget "RSRouterFlightDemoTests" */;
+			buildPhases = (
+				4589E8D8253EC63A00757960 /* Sources */,
+				4589E8D9253EC63A00757960 /* Frameworks */,
+				4589E8DA253EC63A00757960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4589E8DE253EC63A00757960 /* PBXTargetDependency */,
+			);
+			name = RSRouterFlightDemoTests;
+			productName = RSRouterFlightDemoTests;
+			productReference = 4589E8DC253EC63A00757960 /* RSRouterFlightDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4589E8E6253EC63B00757960 /* RSRouterFlightDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4589E8F6253EC63B00757960 /* Build configuration list for PBXNativeTarget "RSRouterFlightDemoUITests" */;
+			buildPhases = (
+				4589E8E3253EC63B00757960 /* Sources */,
+				4589E8E4253EC63B00757960 /* Frameworks */,
+				4589E8E5253EC63B00757960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4589E8E9253EC63B00757960 /* PBXTargetDependency */,
+			);
+			name = RSRouterFlightDemoUITests;
+			productName = RSRouterFlightDemoUITests;
+			productReference = 4589E8E7253EC63B00757960 /* RSRouterFlightDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4589E8B9253EC63900757960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4589E8C0253EC63900757960 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4589E8DB253EC63A00757960 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4589E8C0253EC63900757960;
+					};
+					4589E8E6253EC63B00757960 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4589E8C0253EC63900757960;
+					};
+				};
+			};
+			buildConfigurationList = 4589E8BC253EC63900757960 /* Build configuration list for PBXProject "RSRouterFlightDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4589E8B8253EC63900757960;
+			productRefGroup = 4589E8C2253EC63900757960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4589E8C0253EC63900757960 /* RSRouterFlightDemo */,
+				4589E8DB253EC63A00757960 /* RSRouterFlightDemoTests */,
+				4589E8E6253EC63B00757960 /* RSRouterFlightDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4589E8BF253EC63900757960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4589E8D4253EC63A00757960 /* LaunchScreen.storyboard in Resources */,
+				4589E8D1253EC63A00757960 /* Assets.xcassets in Resources */,
+				4589E8CF253EC63900757960 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589E8DA253EC63A00757960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589E8E5253EC63B00757960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4589E8BD253EC63900757960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4589E8CC253EC63900757960 /* ViewController.m in Sources */,
+				4589E8C6253EC63900757960 /* AppDelegate.m in Sources */,
+				4589E90C253EC6FC00757960 /* RSFlightViewController.m in Sources */,
+				4589E8D7253EC63A00757960 /* main.m in Sources */,
+				4589E8C9253EC63900757960 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589E8D8253EC63A00757960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4589E8E1253EC63A00757960 /* RSRouterFlightDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4589E8E3253EC63B00757960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4589E8EC253EC63B00757960 /* RSRouterFlightDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4589E8DE253EC63A00757960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4589E8C0253EC63900757960 /* RSRouterFlightDemo */;
+			targetProxy = 4589E8DD253EC63A00757960 /* PBXContainerItemProxy */;
+		};
+		4589E8E9253EC63B00757960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4589E8C0253EC63900757960 /* RSRouterFlightDemo */;
+			targetProxy = 4589E8E8253EC63B00757960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4589E8CD253EC63900757960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4589E8CE253EC63900757960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4589E8D2253EC63A00757960 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4589E8D3253EC63A00757960 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4589E8EE253EC63B00757960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4589E8EF253EC63B00757960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4589E8F1253EC63B00757960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSRouterFlightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RSRouterFlightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4589E8F2253EC63B00757960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSRouterFlightDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RSRouterFlightDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4589E8F4253EC63B00757960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSRouterFlightDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RSRouterFlightDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSRouterFlightDemo.app/RSRouterFlightDemo";
+			};
+			name = Debug;
+		};
+		4589E8F5253EC63B00757960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSRouterFlightDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RSRouterFlightDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSRouterFlightDemo.app/RSRouterFlightDemo";
+			};
+			name = Release;
+		};
+		4589E8F7253EC63B00757960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSRouterFlightDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RSRouterFlightDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSRouterFlightDemo;
+			};
+			name = Debug;
+		};
+		4589E8F8253EC63B00757960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RSRouterFlightDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = RS.RSRouterFlightDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RSRouterFlightDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4589E8BC253EC63900757960 /* Build configuration list for PBXProject "RSRouterFlightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4589E8EE253EC63B00757960 /* Debug */,
+				4589E8EF253EC63B00757960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4589E8F0253EC63B00757960 /* Build configuration list for PBXNativeTarget "RSRouterFlightDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4589E8F1253EC63B00757960 /* Debug */,
+				4589E8F2253EC63B00757960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4589E8F3253EC63B00757960 /* Build configuration list for PBXNativeTarget "RSRouterFlightDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4589E8F4253EC63B00757960 /* Debug */,
+				4589E8F5253EC63B00757960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4589E8F6253EC63B00757960 /* Build configuration list for PBXNativeTarget "RSRouterFlightDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4589E8F7253EC63B00757960 /* Debug */,
+				4589E8F8253EC63B00757960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4589E8B9253EC63900757960 /* Project object */;
+}
