@@ -107,7 +107,7 @@
 		4589E8C3253EC63900757960 /* RSRouterFlightDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4589E903253EC6CD00757960 /* Flight */,
+				4589E903253EC6CD00757960 /* Classes */,
 				4589E8C4253EC63900757960 /* AppDelegate.h */,
 				4589E8C5253EC63900757960 /* AppDelegate.m */,
 				4589E8C7253EC63900757960 /* SceneDelegate.h */,
@@ -141,13 +141,13 @@
 			path = RSRouterFlightDemoUITests;
 			sourceTree = "<group>";
 		};
-		4589E903253EC6CD00757960 /* Flight */ = {
+		4589E903253EC6CD00757960 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				4589E90A253EC6FC00757960 /* RSFlightViewController.h */,
 				4589E90B253EC6FC00757960 /* RSFlightViewController.m */,
 			);
-			path = Flight;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
